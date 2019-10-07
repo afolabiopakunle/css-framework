@@ -1,0 +1,21 @@
+.badge {
+  font-size: 12px;
+  background: #444444;
+  color: whitesmoke;
+  padding: 4px 8px;
+  border-radius: 12px;
+  min-width: 10px;
+  font-weight: bold;
+}
+
+.unread {
+  background: red;
+  position: relative;
+  left: -15px;
+  top: -8px;
+}
+
+.greenbadge {
+  background: lime;
+  position: relative;
+}

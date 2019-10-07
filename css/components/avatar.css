@@ -1,0 +1,31 @@
+.avatar-big {
+  width: 50px;
+  border-radius: 50%;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+.avatar-big-component {
+  width: 50px;
+  position: relative;
+  margin-right: 20px;
+}
+.online-bulb {
+  background: lime;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  right: 0;
+  margin-right: -5px;
+  top: 60%;
+}
+
+.avatar-small {
+  margin-right: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 2px solid whitesmoke;
+  cursor: pointer;
+}

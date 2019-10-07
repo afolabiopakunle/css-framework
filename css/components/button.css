@@ -1,0 +1,72 @@
+.btn-medium {
+  border: 1px solid #444444;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: #444444;
+  text-decoration: none;
+  opacity: 0.6;
+  font-size: 18px;
+}
+
+.btn-medium:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #444444;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #444444;
+  font-weight: 100;
+  text-decoration: none;
+  opacity: 1;
+  background: white;
+  border: 1px solid #444444;
+  font-size: 18px;
+}
+
+.btn.inverse {
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  opacity: 1;
+  background: #444444;
+  border: 1px solid none;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.btn.green {
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  opacity: 1;
+  background: lime;
+  border: 1px solid lime;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.btn.blue {
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #444444;
+  font-weight: bolder;
+  text-decoration: none;
+  opacity: 1;
+  background: skyblue;
+  border: 1px solid skyblue;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.btn:hover {
+  opacity: 0.7;
+  font-weight: bold;
+  text-decoration: none;
+}

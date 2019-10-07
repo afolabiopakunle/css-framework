@@ -1,0 +1,90 @@
+@import url("./components/avatar.css");
+@import url("./components/button.css");
+@import url("./components/badge.css");
+@import url("./components/banner.css");
+@import url("./components/tabs.css");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 30px;
+  color: #444444;
+  background: linear-gradient(115deg, rgb(253, 122, 61) 30%, rgb(247, 179, 54) 50%) no-repeat;
+  user-select: none;
+  line-height: 1;
+  min-width: 320px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 100;
+  color: #222222;
+  margin: 20px 5px;
+}
+
+h1 {
+  font-weight: bolder;
+}
+
+.container {
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 800px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.component {
+  display: flex;
+  align-items: center;
+  background: rgb(70, 146, 172);
+  padding: 1rem;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  min-height: 90px;
+}
+
+.component2 {
+  display: flex;
+  align-items: center;
+  background: whitesmoke;
+  min-height: 90px;
+  padding: 1rem;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.row {
+  background: blue;
+}
+
+@media (max-width: 810px) {
+  .component2 {
+    flex-direction: column;
+  }
+
+  .tab-item {
+    position: relative;
+    top: 30px;
+  }
+
+  .tab-item:nth-child(3) {
+    border-radius: 0 15px 0 0;
+  }
+  .solo {
+    display: none;
+  }
+}
